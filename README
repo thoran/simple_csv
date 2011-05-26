@@ -1,0 +1,18 @@
+SimpleCSV README
+================
+
+I started banging on this, possibly even before FasterCSV was started, but was dropped and then picked up again several times between then and now.  I decided last year that it has been far too many years solely in my clutches and have worked since then to be used in a project I was working and with a view to releasing it.  
+
+I can hear you saying, "Why did you release it?...  Why did you bother?...  What does SimpleCSV do that FasterCSV doesn't?  Why do I need SimpleCSV?"
+
+OK, so, here it comes, the justification for why, with at least a few of the reasons why I persisted with this in spite of there being at least two other CSV parsers (the original CSV and FasterCSV): 
+
+1. SimpleCSV is smaller (< 400LOC cf. FasterCSV's ~2KLOC);
+2. SimpleCSV is cleaner (subjective?);
+3. SimpleCSV is faster (~2-4x over FasterCSV);
+4. SimpleCSV has keyed access to column data (FasterCSV doesn't).  
+
+I hope you like it.  
+
+
+thoran
